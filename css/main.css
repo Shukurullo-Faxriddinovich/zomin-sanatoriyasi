@@ -2588,6 +2588,9 @@ img {
     padding-left: 170px;
     line-height: 82px;
   }
+  .video-logo-img {
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -4376,7 +4379,7 @@ html {
     color: #FFFFFF;
   }
   body main section#treatment .about .bbb_slider_container .bbb_slider .owl-item .owl-item-iframe {
-    height: 300px;
+    height: 300px !important;
   }
   body main section#treatment .about .bbb_slider_container .bbb_slider .owl-item img {
     width: 100%;
@@ -4739,7 +4742,7 @@ html {
     color: #FFFFFF;
   }
   body main section#treatment .about .bbb_slider_container .bbb_slider .owl-item .owl-item-iframe {
-    height: 300px;
+    height: 300px !important;
   }
   body main section#treatment .about .bbb_slider_container .bbb_slider .owl-item img {
     width: 100%;
