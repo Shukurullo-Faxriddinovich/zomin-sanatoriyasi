@@ -1,0 +1,480 @@
+.price-list{
+  padding-top: 70px;
+  background-color: #ECF2F5;
+}
+
+.price-list__box{
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.price-list__box::before{
+  content: '';
+  background-image: url("../images/Plant@3x\ 3.svg");
+  background-repeat: repeat;
+  position: absolute;
+  width: 300px;
+  height: 112px;
+  top: -69px;
+  right: 0;
+}
+
+.price-list__title{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #1E1E1E;
+  margin-bottom: 0;
+}
+
+.price-list__row{
+  display: flex;
+  width: 100%;
+  padding: 0px 86px;
+
+}
+.card{
+  width: 33%;
+  background-color: #fff;
+
+}
+.card:nth-child(2){
+  margin: 0 20px;
+}
+
+
+.price-list__img{
+  width: 100%;
+
+}
+
+.price-list__sub-box{
+  height: 246px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin: 7px;
+  padding: 18px 25px 0px 15px;
+}
+
+.price-list__sub-title{
+  margin-bottom: 15px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #1E1E1E;;
+}
+
+.price-list__text{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 0;
+}
+
+
+
+@media only screen and (min-width:2001px) and (max-width:2500px){
+  .price-list{
+    padding-top: 70px;
+  }
+
+  .price-list__title{
+    font-size: 46px;
+    line-height: 52px;
+  }
+
+  .price-list__sub-box{
+    height: 246px;
+    padding: 18px 20px 0px 15px;
+  }
+
+  .price-list__sub-title{
+    font-size: 34px;
+    line-height: 36px;
+  }
+  .price-list__text{
+    font-size: 22px;
+    line-height: 26px;  
+  }
+
+  
+}
+@media only screen and (min-width:1729px) and (max-width:2000px){
+  .price-list{
+    padding-top: 70px;
+  }
+
+  .price-list__title{
+    font-size: 44px;
+    line-height: 50px;
+  }
+
+  .price-list__sub-box{
+    height: 246px;
+    padding: 18px 20px 0px 15px;
+  }
+  .price-list__sub-title{
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .price-list__text{
+    font-size: 20px;
+    line-height: 25px;  
+  }
+  
+
+  
+}
+@media only screen and (min-width:1401px) and (max-width:1727px){
+  .price-list{
+    padding-top: 70px;
+  }
+
+  .price-list__title{
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .price-list__sub-box{
+    height: 246px;
+    padding: 18px 20px 0px 15px;
+  }
+
+  
+
+  
+}
+
+@media only screen and (min-width:1201px) and (max-width:1400px){
+  .price-list{
+    padding-top: 65px;
+  }
+
+  .price-list__title{
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .price-list__sub-box{
+    height: 300px;
+    padding: 18px 20px 0px 15px;
+  }
+
+  .price-list__row{
+    padding: 0px 76px;
+  
+  }
+  
+  
+  
+}
+
+@media only screen and (min-width:1050px) and (max-width:1200px){
+  .price-list{
+    padding-top: 60px;
+  }
+
+  .price-list__title{
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .price-list__sub-box{
+    height: 375px;
+    padding: 18px 20px 0px 15px;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1049px){
+  .price-list{
+    padding-top: 55px;
+  }
+
+  .price-list__box{
+    margin-bottom: 40px;
+  }
+  
+  .price-list__box::before{
+    
+    background-image: none;
+   
+  }
+
+  .price-list__title{
+    font-size: 34px;
+    line-height: 40px;
+    
+
+  }
+
+  
+  .price-list__sub-title{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .price-list__text{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .price-list__sub-box{
+    height: 410px;
+    padding: 18px 15px 0px 15px;
+  }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+
+  .price-list{
+    padding-top: 50px;
+  }
+
+  .price-list__box{
+    margin-bottom: 40px;
+  }
+
+  .price-list__box::before{
+    
+    background-image: none;
+   
+  }
+
+  .price-list__title{
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .price-list__sub-title{
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .price-list__text{
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .price-list__sub-box{
+    height: 610px;
+    padding: 15px 15px 0px 15px;
+  }
+}
+
+@media (min-width: 678px)  and (max-width: 767px) {
+  .price-list{
+    padding-top: 45px;
+  }
+
+  .price-list__box{
+    margin-bottom: 40px;
+  }
+
+  .price-list__box::before{
+    
+    background-image: none;
+   
+  }
+  .price-list__title{
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .price-list__sub-title{
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 8px;
+  }
+  
+  .price-list__text{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .card:nth-child(2){
+    margin: 0 16px;
+  }
+
+  .price-list__sub-box{
+    height: 780px;
+    padding: 15px 15px 0px 15px;
+  }
+
+}
+
+@media (min-width: 577px)  and (max-width: 677px) {
+  .price-list{
+    padding-top: 40px;
+  }
+
+  .price-list__box{
+    margin-bottom: 40px;
+  }
+
+  .price-list__row{
+    display: block;
+    width: 100%;
+    padding: 0px 15px;
+  
+  }
+  .card{
+    width: 100%;
+  
+  }
+  .price-list__box::before{
+    background-image: none;
+  }
+
+  .price-list__title{
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .price-list__sub-title{
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0 auto 15px;
+    text-align: center;
+    margin-bottom: 10px;
+
+  }
+  
+  .price-list__text{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .card:nth-child(2){
+    margin: 25px 0px;
+  }
+
+  .price-list__sub-box{
+    height: 200px;
+    padding: 15px 30px 0px 30px;
+  }
+
+
+}
+
+//  mobile varsiya
+
+
+@media (min-width: 481px)  and (max-width: 576px) {
+  .price-list{
+    padding-top: 35px;
+  }
+
+  .price-list__box{
+    margin-bottom: 30px;
+  }
+
+  .price-list__box::before{
+    
+    background-image: none;
+   
+  }
+
+  .price-list__title{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .card:nth-child(2){
+    margin: 25px 0px;
+  }
+
+  .price-list__sub-title{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+  
+  .price-list__text{
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .price-list__sub-box{
+    margin: 5px;
+    height: 200px;
+    padding: 15px 15px 0px 15px;
+  }
+
+  .price-list__row{
+    display: block;
+    width: 100%;
+    padding: 0px 15px;
+  
+  }
+  .card{
+    width: 100%;
+  
+  }
+}
+
+@media (min-width: 320px)  and (max-width: 480px) {
+  .price-list{
+    padding-top: 30px;
+  }
+
+  .price-list__box{
+    margin-bottom: 30px;
+  }
+
+  .price-list__box::before{
+    
+    background-image: none;
+   
+  }
+
+  .price-list__title{
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .card:nth-child(2){
+    margin: 25px 0px;
+  }
+
+  .price-list__sub-title{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+  
+  .price-list__text{
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .price-list__sub-box{
+    margin: 5px;
+    height: 246px;
+    padding: 15px 15px 0px 15px;
+  }
+
+  .price-list__row{
+    display: block;
+    width: 100%;
+    padding: 0px 15px;
+  }
+  
+  .card{
+    width: 100%;
+  }
+}

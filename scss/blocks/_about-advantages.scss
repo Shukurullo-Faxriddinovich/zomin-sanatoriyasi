@@ -1,0 +1,365 @@
+/********color style********/
+
+$color-bg: #ECF2F5;
+$color-nav: #01021A;
+$color-button: #2C5F9C;
+$color-text: #1E1E1E;
+$color-card: #F5F5F5;
+
+body{
+
+  .site-about{
+      #advantages {
+        margin: 20px 80px;
+  
+        .advantages-head {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          margin-top: 70px;
+          margin-bottom: 50px;
+          line-height: 120%;
+          letter-spacing: 0.01em;
+          color: $color-text;
+        }
+  
+        .advantages-information {
+          display: flex;
+          justify-content: space-between;
+  
+          .advantages-card {
+  
+            width: 295px;
+            height: 260px;
+            background-color: #F5F5F5;
+            border: 1px solid #CCCCCC;
+            box-shadow: 0px 4px 20px -5px rgba(16, 47, 126, 0.2);
+            border-radius: 5px;
+            padding: 7.5px;
+            box-sizing: border-box;
+  
+            .advantages-border {
+              border: 1px dashed #CCCCCC;
+              border-radius: 5px;
+              width: 280px;
+              height: 246.78px;
+              text-align: center;
+              padding-top: 27px;
+            }
+  
+          }
+  
+          .advantages-card:hover {
+            background-color: #2C5F9C;
+            color: #FFFFFF;
+  
+            .image-container1:before {
+              background-color: #FFFFFF;
+            }
+  
+            .image-container2:before {
+              background-color: #FFFFFF;
+            }
+  
+            .image-container3:before {
+              background-color: #FFFFFF;
+            }
+  
+            .image-container4:before {
+              background-color: #FFFFFF;
+            }
+  
+            .image-container5:before {
+              background-color: #FFFFFF;
+            }
+  
+          }
+        }
+      }
+    }
+  }
+
+
+  @media (min-width: 1200px) and (max-width: 1728px) {
+    body{
+      .site-about{
+          #advantages {
+            width: 90%;
+  
+            margin: 0 auto 60px;
+  
+            .advantages-head {
+              font-style: normal;
+              font-weight: 700;
+              font-size: 40px;
+              margin-top: 70px;
+              margin-bottom: 50px;
+              line-height: 120%;
+              letter-spacing: 0.01em;
+              color: $color-text;
+            }
+  
+            .advantages-information {
+              display: flex;
+              justify-content: space-between;
+  
+              .advantages-card {
+  
+                width: 19%;
+                height: 220px;
+                background-color: #F5F5F5;
+                border: 1px solid #CCCCCC;
+                box-shadow: 0px 4px 20px -5px rgba(16, 47, 126, 0.2);
+                border-radius: 5px;
+                padding: 7.5px;
+                box-sizing: border-box;
+  
+                .advantages-border {
+                  border: 1px dashed #CCCCCC;
+                  border-radius: 5px;
+                  width: 100%;
+                  height: 200px;
+                  text-align: center;
+                  padding-top: 27px;
+                  h4{
+                    font-size: 13px;
+                  }
+                }
+  
+              }
+  
+              .advantages-card:hover {
+                background-color: #2C5F9C;
+                color: #FFFFFF;
+  
+                .image-container1:before {
+                  background-color: #FFFFFF;
+                }
+  
+                .image-container2:before {
+                  background-color: #FFFFFF;
+                }
+  
+                .image-container3:before {
+                  background-color: #FFFFFF;
+                }
+  
+                .image-container4:before {
+                  background-color: #FFFFFF;
+                }
+  
+                .image-container5:before {
+                  background-color: #FFFFFF;
+                }
+  
+              }
+            }
+          }
+        }
+        }
+      }
+ 
+  @media (min-width: 991px) and (max-width: 1200px) {
+    body{
+      background-color: #ECF2F5;
+    .site-about{
+    #advantages {
+            width: 90%;
+            margin: 0 auto 50px;
+  
+            .advantages-head {
+              font-style: normal;
+              font-weight: 700;
+              font-size: 40px;
+              margin-top: 70px;
+              margin-bottom: 50px;
+              line-height: 120%;
+              letter-spacing: 0.01em;
+              color: $color-text;
+            }
+  
+            .advantages-information {
+              display: flex;
+              justify-content: space-between;
+  
+              .advantages-card {
+  
+                width: 19%;
+                height: 220px;
+                background-color: #F5F5F5;
+                border: 1px solid #CCCCCC;
+                box-shadow: 0px 4px 20px -5px rgba(16, 47, 126, 0.2);
+                border-radius: 5px;
+                padding: 7.5px;
+                box-sizing: border-box;
+  
+                .advantages-border {
+                  border: 1px dashed #CCCCCC;
+                  border-radius: 5px;
+                  width: 100%;
+                  height: 200px;
+                  text-align: center;
+                  padding-top: 27px;
+                  h4{
+                    font-size: 13px;
+                  }
+                }
+  
+              }
+  
+              .advantages-card:hover {
+                background-color: #2C5F9C;
+                color: #FFFFFF;
+  
+                .image-container1:before {
+                  background-color: #FFFFFF;
+                }
+  
+                .image-container2:before {
+                  background-color: #FFFFFF;
+                }
+  
+                .image-container3:before {
+                  background-color: #FFFFFF;
+                }
+  
+                .image-container4:before {
+                  background-color: #FFFFFF;
+                }
+  
+                .image-container5:before {
+                  background-color: #FFFFFF;
+                }
+  
+              }
+            }
+          }
+        }
+  
+        }
+      }
+      @media (min-width: 700px) and (max-width: 990px) {
+        body{
+          background-color: #ECF2F5;
+        .site-about{
+        #advantages {
+                width: 90%;
+                margin: 0 auto 50px;
+      
+                .advantages-head {
+                  font-style: normal;
+                  font-weight: 700;
+                  font-size: 40px;
+                  margin-top: 70px;
+                  margin-bottom: 50px;
+                  line-height: 120%;
+                  letter-spacing: 0.01em;
+                  color: $color-text;
+                }
+      
+                .advantages-information {
+                  display: block;
+                  justify-content: center;
+                  margin: auto;
+      
+                  .advantages-card {
+      
+                    width: 40%;
+                    height: 220px;
+                    margin: auto;
+                    background-color: #F5F5F5;
+                    border: 1px solid #CCCCCC;
+                    box-shadow: 0px 4px 20px -5px rgba(16, 47, 126, 0.2);
+                    border-radius: 5px;
+                    padding: 7.5px;
+                    box-sizing: border-box;
+      
+                    .advantages-border {
+                      border: 1px dashed #CCCCCC;
+                      border-radius: 5px;
+                      width: 100%;
+                      height: 200px;
+                      text-align: center;
+                      padding-top: 27px;
+                      h4{
+                        font-size: 13px;
+                      }
+                    }
+      
+                  }
+      
+                  .advantages-card:hover {
+                    background-color: #2C5F9C;
+                    color: #FFFFFF;
+      
+                    .image-container1:before {
+                      background-color: #FFFFFF;
+                    }
+      
+                    .image-container2:before {
+                      background-color: #FFFFFF;
+                    }
+      
+                    .image-container3:before {
+                      background-color: #FFFFFF;
+                    }
+      
+                    .image-container4:before {
+                      background-color: #FFFFFF;
+                    }
+      
+                    .image-container5:before {
+                      background-color: #FFFFFF;
+                    }
+      
+                  }
+                }
+              }
+            }
+      
+            }
+          }
+ 
+
+@media (min-width: 0) and (max-width: 699px) {
+  body{
+    .site-about{
+        #advantages {
+          margin:  0;
+          padding-top: 50px;
+          padding-bottom: 20px;
+          background-color: #ECF2F5;
+          .advantages-head {
+            font-size: 22px;
+            margin: 0 0 35px 0;
+            // padding: 35px;
+          }
+  
+          .advantages-information {
+            display: block;
+  
+            .advantages-card {
+  
+              margin: 10px auto;
+  
+              .advantages-border {
+                h4{
+                  font-size: 14px;
+                  margin: 0 35px;
+                }
+  
+  
+              }
+  
+            }
+  
+  
+          }
+        }
+      }
+    }
+  }
+  
+  
+  
+  

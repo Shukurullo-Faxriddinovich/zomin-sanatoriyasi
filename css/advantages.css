@@ -1,0 +1,75 @@
+.image-container1 {
+  width: 150px;
+  height: 125px;
+  margin: auto;
+
+}
+
+.image-container2 {
+  width: 150px;
+  height: 125px;
+  margin: auto;
+
+}
+
+.image-container3 {
+  width: 150px;
+  height: 125px;
+  margin: auto;
+
+}
+
+.image-container4 {
+  width: 150px;
+  height: 125px;
+  margin: auto;
+
+}
+
+.image-container5 {
+  width: 150px;
+  height: 125px;
+  margin: auto;
+
+}
+
+.image-container1:before {
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: #1E1E1E;
+  -webkit-mask-image: url("../../images/Наши преимущества1 (1).svg");
+  -webkit-mask-size: cover;
+}
+.image-container2:before {
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: #1E1E1E;
+  -webkit-mask-image: url("../../images/Наши преимущества2 (1).svg");
+  -webkit-mask-size: cover;
+}
+.image-container3:before {
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: #1E1E1E;
+  -webkit-mask-image: url("../../images/Наши преимущества3 (1).svg");
+  -webkit-mask-size: cover;
+}
+.image-container4:before {
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: #1E1E1E;
+  -webkit-mask-image: url("../../images/Наши преимущества4 (1).svg");
+  -webkit-mask-size: cover;
+}
+.image-container5:before {
+  content: "";
+  display: block;
+  height: 100%;
+  background-color: #1E1E1E;
+  -webkit-mask-image: url("../../images/Наши преимущества5 (1).svg");
+  -webkit-mask-size: cover;
+}

@@ -1,0 +1,164 @@
+.about-hero{
+  background-image: url("../images/about-hero-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.about-hero__title{
+  width: 950px;
+  margin: 0;
+  padding-top: 150px;
+  padding-left: 180px;
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+
+
+@media only screen and (min-width:2001px) and (max-width:2500px){
+  
+  
+  .about-hero__title{
+    padding-top: 140px;
+    padding-left: 170px;
+    font-size: 80px;
+    line-height: 86px;
+  }
+  
+}
+@media only screen and (min-width:1729px) and (max-width:2000px){
+  
+  
+  .about-hero__title{
+    padding-top: 140px;
+    padding-left: 170px;
+    font-size: 75px;
+    line-height: 84px;
+  }
+  
+}
+@media only screen and (min-width:1401px) and (max-width:1727px){
+  
+  
+  .about-hero__title{
+    padding-top: 140px;
+    padding-left: 170px;
+    line-height: 82px;
+  }
+  
+}
+
+@media only screen and (min-width:1201px) and (max-width:1400px){
+  
+
+  .about-hero__title{
+    width: 800px;
+    padding-top: 180px;
+    padding-left: 160px;
+    font-size: 65px;
+    line-height: 80px;
+  }
+
+}
+
+@media only screen and (min-width:1050px) and (max-width:1200px){
+  .about-hero__title{
+    width: 700px;
+    padding-top: 180px;
+    padding-left: 140px;
+    font-size: 60px;
+    line-height:70px;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1049px){
+  .about-hero__title{
+    width: 650px;
+    padding-top: 180px;
+    padding-left: 120px;
+    font-size: 55px;
+    line-height:60px;
+  }
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+  .about-hero__title{
+    width: 550px;
+    padding-top: 180px;
+    padding-left: 90px;
+    font-size: 50px;
+    line-height:55px;
+  }
+}
+
+@media (min-width: 678px)  and (max-width: 767px) {
+  .about-hero__title{
+    width: 450px;
+    padding-top: 180px;
+    padding-left: 60px;
+    font-size: 40px;
+    line-height:45px;
+  }
+}
+@media (min-width: 577px)  and (max-width: 677px) {
+  .about-hero__title{
+    width: 350px;
+    padding-top: 180px;
+    padding-left: 30px;
+    font-size: 35px;
+    line-height:40px;
+  }
+}
+
+//  mobile varsiya
+
+
+@media (min-width: 481px)  and (max-width: 576px) {
+  .about-hero{
+    background-image: url("../images/mobile-abuout-hero-background.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: scroll;
+      height: 300px;
+      width: 100%;
+      
+  }
+
+  .about-hero__title{
+    width: 300px;
+    padding-top: 120px;
+    padding-left: 30px;
+    font-size: 30px;
+    line-height:35px;
+  }
+}
+
+@media (min-width: 320px)  and (max-width: 480px) {
+  .about-hero{
+    background-image: url("../images/mobile-abuout-hero-background.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: scroll;
+      height: 300px;
+      width: 100%;
+     
+  }
+
+  .about-hero__title{
+    width: 270px;
+    padding-top: 120px;
+    padding-left: 30px;
+    font-size: 25px;
+    line-height:30px;
+  }
+}
